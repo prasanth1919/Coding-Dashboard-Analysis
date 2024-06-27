@@ -1,0 +1,87 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjusted to align items at the top */
+  min-height: calc(100vh - 40px); /* Adjusted to avoid overlap with header/footer if any */
+  background-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 240px; /* Adjust this to match sidebar width + some padding */
+}
+
+.profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Max width for the form */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Ensure elements stack vertically */
+  align-items: center; /* Center-align items horizontally */
+}
+
+.profile h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the form content */
+  width: 100%; /* Ensure form takes full width */
+}
+
+.profile label {
+  margin-bottom: 8px; /* Adjusted margin for labels */
+  text-align: left; /* Align labels to the left */
+  width: 100%; /* Ensure labels take full width */
+}
+
+.profile input {
+  width: 100%; /* Ensure input takes full width */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.profile .buttons {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+  width: 100%; /* Ensure buttons container takes full width */
+  gap: 10px; /* Add some space between the buttons */
+  margin-top: 20px; /* Adjust spacing */
+}
+
+.profile button {
+  width: calc(50% - 5px); /* Adjusted width for two buttons */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.cancel-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,11 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+  margin-left: 240px; /* Adjust this to match the sidebar width */
+  margin-top: 20px; /* Ensure content starts below any fixed headers */
+  padding: 20px; /* Add padding for content */
+  box-sizing: border-box; /* Ensure padding is included in element width */
+}
+
+
+

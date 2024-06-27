@@ -1,0 +1,79 @@
+.seek-friends {
+  margin-left: 240px; /* Adjust this to match sidebar width + some padding */
+  margin-top: 20px; /* Ensure content starts below the sidebar */
+  padding: 20px; /* Optional: Add padding to the content area */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align content */
+  justify-content: flex-start; /* Align items at the top */
+  min-height: calc(100vh - 40px); /* Adjust height considering any possible header/footer */
+  box-sizing: border-box;
+  
+}
+
+.seek-friends h2 {
+  font-size: 2rem; /* Adjust font size */
+  margin-bottom: 20px; /* Spacing below heading */
+}
+
+.seek-friends select,
+.seek-friends input,
+.seek-friends button {
+  width: 300px; /* Fixed width for uniform size */
+  padding: 10px; /* Padding for better UX */
+  margin-bottom: 10px; /* Space between elements */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+.seek-friends button {
+  background-color: #dc143c;; /* Primary button color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.seek-friends button:disabled {
+  background-color: #ccc; /* Disabled button color */
+  cursor: not-allowed; /* Not allowed cursor on hover */
+}
+
+.seek-friends button:hover:enabled {
+  background-color: #ff4b5c; /* Darker button color on hover */
+}
+
+.seek-friends .loading,
+.seek-friends .error {
+  color: #d9534f; /* Error text color */
+  margin-top: 10px; /* Margin on top */
+}
+
+.seek-friends .profile-info {
+  margin-top: 20px; /* Margin on top */
+  color: white; /* Text color for profile information */
+}
+
+.seek-friends .profile-info h3 {
+  font-size: 1.5rem; /* Font size for subheadings */
+  margin-bottom: 10px; /* Margin below subheadings */
+}
+
+.seek-friends .profile-info img {
+  max-width: 100px; /* Max width for avatar images */
+  border-radius: 50%; /* Circular avatars */
+  margin-bottom: 10px; /* Margin below images */
+}
+
+.seek-friends .profile-info ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.seek-friends .profile-info ul li {
+  margin-bottom: 10px; /* Margin below list items */
+}
+
+.seek-friends .profile-info ul li:last-child {
+  margin-bottom: 0; /* No margin below last list item */
+}
